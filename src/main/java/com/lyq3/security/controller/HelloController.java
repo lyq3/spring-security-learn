@@ -9,4 +9,14 @@ public class HelloController {
     public  String  hello(){
         return "hello页面";
     }
+
+    @GetMapping("/login")
+    public String login() {
+        return "登录页面";
+    }
+
+    @GetMapping("/")
+    public  String index(){
+        return "首页";
+    }
 }
