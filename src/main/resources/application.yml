@@ -1,0 +1,3 @@
+server:
+  name: spring-sucurity
+  port: 8111
